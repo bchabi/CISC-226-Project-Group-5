@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: last file second page
+  m_EditorClassIdentifier: 
+  description: '[redacted].txt page 1:
+
+
+    We had less than 500 people left and
+    with the new mutation, we weren''t going to survive much longer. For the first
+    time in history, there existed something with a will to survive that was stronger
+    than ours. We had all given up hope. Until we found a cure. Our faith in our
+    abilities was reignited. We were brought down to our knees, on the verge of extinction,
+    and we now have the strength to deal the final blow that will prove that our
+    potential is limitless and our will unbreakable. When triple checking to ensure
+    that our cure works before letting everyone else know and releasing it into the
+    world, we realized something. We realized what the next mutation of the virus
+    will be. The changes that the virus was making to itself seemed similar to the
+    changing effect that the cure will have on the virus. It seems that in the next
+    mutation, the virus will no longer act parasitic. It will evolve and rather than
+    fight for control with its host, it will properly connect with it and act symbiotic.
+    We were marveled by what this could mean. It would mean that we would regain
+    our consciousness and would be able to manipulate and use the abilities of the
+    virus. We would be able to gain nutrients from plants and animals without needing
+    anything but our hands. All of our senses would be heightened and we may even
+    start to regain our eyesight. We would be able to turn invisible to protect ourselves
+    from wild animals. We would be able to manipulate our black blood to create thin
+    or thick layers on top of our skins to protect ourselves from physical damage.
+    This would fulfill the very purpose for which the virus was created. Then we
+    realized what the downside would be.
+
+
+    Type the word, exit, into the console
+    to stop reading the file, or type the phrase, next page, into the console to
+    continue reading the file, or type the phrase, previous page, into the console
+    to go back to the previous page of the file'
+  roomName: last file second page
+  exits:
+  - keyString:
+    - exit
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: da8d5d16ac54c3647bad09584758739e, type: 2}
+  - keyString:
+    - next page
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 45e9e208e93c66a4f9934e39beada096, type: 2}
+  - keyString:
+    - previous page
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: ee24f09a7f989e14c9a93afb406d2ff2, type: 2}

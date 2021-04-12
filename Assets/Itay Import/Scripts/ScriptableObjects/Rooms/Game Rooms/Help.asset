@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: Help
+  m_EditorClassIdentifier: 
+  description: 'Basic commands:
+
+    hlp : hlp <command>, gives an example of <command>
+
+    dcd+
+    : dcd+, starts decoding process if decoding hasn''t been achieved yet
+
+    dcd-
+    : dcd-, ends decoding process
+
+    fls : fls, shows names of all files
+
+    opn
+    : opn <file>, opens the file called <file>
+
+    dcm : dcm, prints out commands
+    used when decoding
+
+    clc: clc, clears the console'
+  roomName: help
+  exits: []

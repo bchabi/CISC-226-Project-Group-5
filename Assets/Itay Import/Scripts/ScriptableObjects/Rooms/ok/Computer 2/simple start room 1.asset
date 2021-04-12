@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: simple start room 1
+  m_EditorClassIdentifier: 
+  description: 'Data loaded
+
+    Type the word, commands, into the console to see
+    a list of commands that can be used'
+  roomName: simple start room 1
+  exits:
+  - keyString:
+    - files
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 595310c4c6bcc1e42b412a2180a15084, type: 2}
+  - keyString:
+    - decode iafctg.txt
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 7ad792d59180654449976161ece8322d, type: 2}
+  - keyString:
+    - decode qgjelgreg.txt
+    - decode awkshafk.txt
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 9845bb758653efa44974ace893378013, type: 2}
+  - keyString:
+    - open qgjelgreg.txt
+    - open awkshafk.txt
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: b89463c62c75fe24e82df81060507d8a, type: 2}
+  - keyString:
+    - commands
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 623b50d3a26dadd4f81a41f82b84753b, type: 2}
+  - keyString:
+    - open iafctg.txt
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 1d9bd31be3b2cdf41ad25a16ae6a9154, type: 2}

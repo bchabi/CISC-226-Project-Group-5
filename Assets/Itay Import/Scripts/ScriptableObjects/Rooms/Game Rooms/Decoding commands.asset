@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: Decoding commands
+  m_EditorClassIdentifier: 
+  description: 'Decoding commands:
+
+    nbr : nbr <number>, number of characters
+    in all words
+
+    cct : cct <char1>-<char2>, <char1> and <char2> are always together
+    in that order
+
+    bgn : bgn <char>, words always start with <char>
+
+    end
+    : end <char>, words always end with <char>
+
+    vpn : vpn <number>, vowels always
+    appear in the <number> location in all the words
+
+    cwm : cwm <char1>/<number>/<char2>,
+    <char1> and <char2> always show up one after the other in that order, but always
+    have <number> letters in between them'
+  roomName: decoding commands
+  exits: []

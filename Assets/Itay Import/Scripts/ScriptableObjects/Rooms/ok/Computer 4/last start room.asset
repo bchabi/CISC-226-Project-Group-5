@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: last start room
+  m_EditorClassIdentifier: 
+  description: 'Loading data...
+
+    Data loaded
+
+
+    Type the word, commands, into
+    the console to see a list of commands that can be used'
+  roomName: last start room
+  exits:
+  - keyString:
+    - commands
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: c270e7b33f1ab2c4daf27ceb987a53b4, type: 2}
+  - keyString:
+    - files
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 8303a3cb48903694ba517c939dba29a5, type: 2}
+  - keyString:
+    - open [redacted].txt
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: ee24f09a7f989e14c9a93afb406d2ff2, type: 2}

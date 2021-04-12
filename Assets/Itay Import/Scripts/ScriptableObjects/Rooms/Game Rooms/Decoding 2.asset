@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: Decoding 2
+  m_EditorClassIdentifier: 
+  description: 'Starting decoding
+
+    Decoding pattern string dump:
+
+    bhjk bgru
+    bnmt
+
+    btgr bkly bgrf'
+  roomName: decoding
+  exits:
+  - keyString:
+    - help
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 28734635d2ab7f846a1702a9325a466b, type: 2}
+  - keyString:
+    - dcd-
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: dffa55be37408f84a918539ad7b21046, type: 2}
+  - keyString:
+    - fls
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: b2a67356b885a5a4f87fe3d50b708b05, type: 2}
+  - keyString:
+    - dcm
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 2cfb97c0d7d513741953dbe66002a43b, type: 2}
+  - keyString:
+    - hlp dcd+
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 5bb7297c3932e9040aa042a349b9414e, type: 2}
+  - keyString:
+    - hlp dcd-
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: cc6e9aeb35d38b44abc633a423830795, type: 2}
+  - keyString:
+    - hlp fls
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 232ca524f220f0a4491c0cc4134a2bd5, type: 2}
+  - keyString:
+    - hlp opn
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 82f8545c29b4301448a1686ada61615d, type: 2}
+  - keyString:
+    - hlp dcm
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 2f2420cca6d76844bbf7d79b14a8df16, type: 2}
+  - keyString:
+    - hlp nbr
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: a7e03c7166499434a82d9223bc790a1d, type: 2}
+  - keyString:
+    - hlp bgn
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 0d5b3c54aae687e4dab1e9d404c2af92, type: 2}
+  - keyString:
+    - hlp end
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 31951747d01495f41a0ad6292304d5db, type: 2}
+  - keyString:
+    - hlp cct
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 0a581eec3e26a9347969dbfbd18c5bd4, type: 2}
+  - keyString:
+    - hlp vpn
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 02ff7140ce4d5cb499392acaacd2d8ef, type: 2}
+  - keyString:
+    - hlp cwm
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 888f946dd17633f4b8d43c9aed87f5a5, type: 2}
+  - keyString:
+    - nbr 4
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 1e9cda06815709c40b7c3a03602ff1dc, type: 2}
+  - keyString:
+    - bgn b
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 828c5782562e17844aca90e9427b17b4, type: 2}
+  - keyString:
+    - cct g-r
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: fbcef90fdac71a24e80342a0f02664b6, type: 2}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: last file third page
+  m_EditorClassIdentifier: 
+  description: '[redacted].txt page 3:
+
+
+    After regaining consciousness we would
+    remember simple things like how to talk, read, write, but we would lose all memory
+    of our life before the virus. Humanity would essentially be reset with enhanced
+    capabilities. So we had a choice to make: cure everyone, giving them back their
+    memories and returning everything to the way it was before the virus was created;
+    or we could let the virus mutate, and have humanity start over but with a better
+    ability to survive. This decision was not easy, we had the power to control the
+    future of all humans. We knew that we were the ones that had to make the decision,
+    we were the only ones who could understand where each path would lead us. We
+    knew that the others wouldn''t consider resetting humanity. They wouldn''t have
+    the strength to make that decision, even if it is the right thing to do. After
+    thinking about it for a long time, considering the upsides and downsides of each
+    decision, we finally came to a conclusion. We destroyed the cure and told the
+    others that there wasn''t anything that could be done to stop the monsters. We
+    also knew that for humanity to be properly reset, we had to destroy as much evidence
+    of humans before the virus as we could. With the time that we had, we sent a
+    virus to the safehouses with the hopes that it will destroy all the information
+    that was backed up on them. The monsters are going to breach the city within
+    the hour. We won''t ever know if our decision was the right one, but it made
+    me realize something. Maybe greed isn''t a human weakness but rather a human
+    strength. Maybe our never ending desire to want more than what we already have,
+    our never ending thirst to become better, our inability to be satisfied with
+    what we already have is the reason we have survived the things that we have.
+    Maybe our greed is what gives us goals that are beyond our reach and our will
+    and determination is what drives us to achieve the seemingly impossible goals.
+    In that sense, we are truly perfect beings.
+
+
+    Type the phrase, next page,
+    into the console to continue reading the file, or type the phrase, previous page,
+    into the console to go back to the previous page of the file
+
+
+    You can now
+    also type the word, exit, or the word, return, into the console to leave the
+    computer'
+  roomName: last file third page
+  exits:
+  - keyString:
+    - previous page
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: b0009fe12f49a834ea2e77ce74dff66c, type: 2}

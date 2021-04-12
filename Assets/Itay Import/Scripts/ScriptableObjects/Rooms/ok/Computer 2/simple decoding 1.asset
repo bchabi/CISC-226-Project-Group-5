@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: simple decoding 1
+  m_EditorClassIdentifier: 
+  description: 'The following sentence has its words out of order, so to decode the
+    file, you must type the sentence in the correct order (all lowercase):
+
+
+    body
+    barrier acts as a that The ooze surrounds black protective their'
+  roomName: simple decoding 1
+  exits:
+  - keyString:
+    - the black ooze that surrounds their body acts as a protective barrier
+    - the black ooze acts as a protective barrier that surrounds their body
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 72511f3b0144eae498808bdb1350f947, type: 2}
+  - keyString:
+    - commands
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 623b50d3a26dadd4f81a41f82b84753b, type: 2}
+  - keyString:
+    - exit decoding
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 274f092a92f0d0c4c90d3ca791e433dc, type: 2}

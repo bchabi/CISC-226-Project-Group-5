@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: simple commands
+  m_EditorClassIdentifier: 
+  description: 'The following are commands that can be used:
+
+    files: to see a
+    list of the files on the computer, type the word, files, into the console
+
+
+    open:
+    to open a file, type the word, open, and then type the name of the file you wish
+    to open, for example, to open a file named abc.txt, you must type the following
+    into the console,
+
+    open abc.txt
+
+    decode: if a file is encoded, you will
+    have to decode it to access it, so if you want to access a file called abc.txt
+    and it is encoded, you must type the following into the console,
+
+    decode
+    abc.txt
+
+    exit decoding: to exit the decoding process and return, type the
+    following into the console,
+
+
+    exit decoding'
+  roomName: simple commands
+  exits: []

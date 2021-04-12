@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: Right Middle Room
+  m_EditorClassIdentifier: 
+  description: You are in the right room
+  roomName: right room
+  exits:
+  - keyString:
+    - go to ending room
+    exitDescription: You see the ending room in front of you
+    valueRoom: {fileID: 11400000, guid: f71b4ca0972698548bc1c7ae9c4bd62c, type: 2}
+  - keyString:
+    - go to starting room
+    - go back
+    exitDescription: You see the starting room behind you
+    valueRoom: {fileID: 11400000, guid: 98245b629fb63fc43b72edf892455232, type: 2}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d34df0ccd23a21e4eb57014b719fa8fe, type: 3}
+  m_Name: last file first page
+  m_EditorClassIdentifier: 
+  description: '[redacted].txt page 1:
+
+
+    CLASSIFIED MATERIAL
+
+    Ever since
+    the virus was introduced to the world, countries have been trying to find a cure.
+    Even societies collapsed and we were left with small civilizations of just over
+    1000 people, there were those of us that didn''t give up. Every person doing
+    their part from healing injured people, to trying to find a cure to stop the
+    destruction of life on Earth, to teaching the next generation of humans how to
+    survive, and to fighting the creatures head on, keeping them from destroying
+    all that we have left. It is the will and determination of humans to survive
+    that makes us strong. It is what allowed us to survive other deadly diseases
+    and dangers that Mother Earth sent upon us. This time it''s different. This virus,
+    this disease that we created was originally made to be a symbiote with the intent
+    to enhance our physical capabilities, to increase our ability to survive and
+    in turn allow us to live longer on this Earth. Instead, we created a deadly parasite
+    that showed us what our biggest weakness is, greed. We were created with the
+    ability to build civilizations from nothing, to manipulate raw materials to allow
+    us to communicate from unfathomable distances, to reach places beyond our planet,
+    yet there is one thing we can''t change, human greed. The parasite tricked our
+    bodies, used our will to survive to manipulate us to steal the lives of all other
+    living beings on the Earth, allowing it to spread and grow. It used our will
+    to survive to make itself stronger and stole our humanity and ability to think
+    and act freely. We beat Mother Nature but in the end, we caused our own downfall.
+
+
+    Type
+    the word, exit, into the console to stop reading the file, or type the phrase,
+    next page, into the console to continue reading the file, or type the phrase,
+    previous page, into the console to go back to the previous page of the file'
+  roomName: last file first page
+  exits:
+  - keyString:
+    - exit
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: da8d5d16ac54c3647bad09584758739e, type: 2}
+  - keyString:
+    - next page
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: b0009fe12f49a834ea2e77ce74dff66c, type: 2}
